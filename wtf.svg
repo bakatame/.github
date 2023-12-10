@@ -4,6 +4,8 @@
 			<style>
 		                .ft-logo {
 		                    width: 100%;
+		                    padding-top: 96px;
+		                    padding-bottom: 96px;
 		                    display: flex;
 		                    cursor: normal;
 		                    user-select: none;
