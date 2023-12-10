@@ -2,18 +2,36 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-                .title {
-                    transition: fill .3s ease;
+                .ft-logo {
+                    width: 100%;
+                    padding-top: 96px;
+                    padding-bottom: 96px;
+                    display: flex;
+                    background: #110f23;
+                    cursor: normal;
+                    user-select: none;
+                    -webkit-user-select: none;
+                    -moz-user-select: none
+                }
+
+				.ft-logo .ft-text {
+                    animation: ft-glitch .65s cubic-bezier(.25, .46, .45, .9399999999999999) infinite both;
+                    font-size: 84px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    margin-left: auto;
+                    margin-right: auto;
+                    color: #f5f5f5;
+                    user-select: none;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
                     cursor: pointer;
-                    font-family: Helvetica, sans-serif;
-                    border-radius: 5px 5px 5px 5px;
-                    fill:#2c1300;
-                    text-anchor: middle;
-                    dominant-baseline: middle;
-                    font-size: 24px;
-                  }
+                    text-decoration: none
+                }
 			</style>
-			<a class="ft-text"> FATALITY </a>
+			<div class="ft-logo">
+				<a class="ft-text">Click to see the source</a>
+			</div>
 		</div>
 	</foreignObject>
 </svg>
