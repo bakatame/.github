@@ -15,7 +15,7 @@
 
 Discord: Bottame
 
-QQ (China SMS): 2723106391
+QQ (China SMS): 1580259153
 
 ## Other
 
